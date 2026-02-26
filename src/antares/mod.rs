@@ -28,7 +28,7 @@
 //! ## Example
 //!
 //! ```rust,ignore
-//! use scorpio::antares::{AntaresManager, AntaresPaths};
+//! use scorpiofs::antares::{AntaresManager, AntaresPaths};
 //! use std::path::PathBuf;
 //!
 //! #[tokio::main]

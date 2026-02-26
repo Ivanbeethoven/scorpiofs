@@ -15,7 +15,7 @@
 //! sudo -E cargo test --test antares_test -- --ignored --nocapture --test-threads=1
 //! ```
 
-use scorpio::{
+use scorpiofs::{
     antares::fuse::AntaresFuse,
     antares::{AntaresManager, AntaresPaths},
     util::config,

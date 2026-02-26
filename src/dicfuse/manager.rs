@@ -26,7 +26,7 @@ use crate::util::config;
 ///
 /// ```no_run
 /// use std::sync::Arc;
-/// use scorpio::dicfuse::DicfuseManager;
+/// use scorpiofs::dicfuse::DicfuseManager;
 ///
 /// #[tokio::main]
 /// async fn main() {
@@ -93,7 +93,7 @@ impl DicfuseManager {
     /// # Example
     ///
     /// ```no_run
-    /// use scorpio::dicfuse::DicfuseManager;
+    /// use scorpiofs::dicfuse::DicfuseManager;
     ///
     /// #[tokio::main]
     /// async fn main() {
@@ -207,7 +207,7 @@ impl DicfuseManager {
     ///
     /// ```no_run
     /// use std::sync::Arc;
-    /// use scorpio::dicfuse::DicfuseManager;
+    /// use scorpiofs::dicfuse::DicfuseManager;
     ///
     /// #[tokio::test]
     /// async fn test_with_isolated_dicfuse() {

@@ -14,7 +14,7 @@ use std::{
 // use http::Method;
 use lazy_static::lazy_static;
 use rfuse3::raw::logfs::LoggingFileSystem;
-use scorpio::{
+use scorpiofs::{
     dicfuse::store,
     fuse::MegaFuse,
     manager::{fetch::CheckHash, ScorpioManager},

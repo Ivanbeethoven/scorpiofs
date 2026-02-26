@@ -7,7 +7,7 @@
 //! ## Quick Start
 //!
 //! ```rust,ignore
-//! use scorpio::prelude::*;
+//! use scorpiofs::prelude::*;
 //!
 //! #[tokio::main]
 //! async fn main() -> Result<(), Box<dyn std::error::Error>> {
@@ -35,7 +35,7 @@
 //! ### Method 1: Using AntaresManager with Default Paths
 //!
 //! ```rust,ignore
-//! use scorpio::antares::{AntaresManager, AntaresPaths};
+//! use scorpiofs::antares::{AntaresManager, AntaresPaths};
 //! use std::path::PathBuf;
 //!
 //! #[tokio::main]
@@ -72,7 +72,7 @@
 //! Mount to any arbitrary directory using `mount_job_at`:
 //!
 //! ```rust,ignore
-//! use scorpio::antares::{AntaresManager, AntaresPaths};
+//! use scorpiofs::antares::{AntaresManager, AntaresPaths};
 //! use std::path::PathBuf;
 //!
 //! #[tokio::main]
@@ -104,8 +104,8 @@
 //! For lower-level control over the FUSE mount:
 //!
 //! ```rust,ignore
-//! use scorpio::antares::fuse::AntaresFuse;
-//! use scorpio::dicfuse::DicfuseManager;
+//! use scorpiofs::antares::fuse::AntaresFuse;
+//! use scorpiofs::dicfuse::DicfuseManager;
 //! use std::path::PathBuf;
 //!
 //! #[tokio::main]
@@ -142,7 +142,7 @@
 //! For production deployments, use the HTTP daemon for centralized mount management:
 //!
 //! ```rust,ignore
-//! use scorpio::daemon::antares::{AntaresDaemon, AntaresServiceImpl, CreateMountRequest};
+//! use scorpiofs::daemon::antares::{AntaresDaemon, AntaresServiceImpl, CreateMountRequest};
 //! use std::sync::Arc;
 //!
 //! #[tokio::main]
@@ -195,7 +195,7 @@ pub mod util;
 /// # Usage
 ///
 /// ```rust,ignore
-/// use scorpio::prelude::*;
+/// use scorpiofs::prelude::*;
 /// ```
 pub mod prelude {
     // Antares core types

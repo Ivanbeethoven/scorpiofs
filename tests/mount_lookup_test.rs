@@ -1,4 +1,4 @@
-use scorpio::dicfuse::store::{DictionaryStore, PathLookupStatus};
+use scorpiofs::dicfuse::store::{DictionaryStore, PathLookupStatus};
 use tempfile::tempdir;
 
 #[tokio::test]
